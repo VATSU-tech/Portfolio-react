@@ -5,6 +5,23 @@ export const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+export const heroProfile = {
+  name: "Vatsu Malambo",
+  role: "Développeur Web & IoT",
+  location: "RDC / Nord-Kivu / Butembo",
+  email: "vatsumalambo@gmail.com",
+  phone: "+243 995 716 294",
+  photo: "https://imgs.search.brave.com/9k-nOdcAgLq5iGF3h_B9XHaxyZ9TW97jmEFE0BG36Xw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zb2xh/bC1kaWdpdGFsLW1h/dXJpdGl1cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDQvY29kZXVyLXNl/bmlvci00MDB4NDAw/LnBuZw",
+  availability: "Disponible pour missions freelance",
+  details: [
+    { label: "Spécialités", value: "UI 3D, IoT, Motion" },
+    { label: "Expérience", value: "3+ ans" },
+    { label: "Langues", value: "FR, EN" },
+  ],
+  highlights: ["React", "TypeScript", "Arduino", "Three.js"],
+  cvHref: "#",
+};
+
 export const heroBadges = [
   "Interaction 3D",
   "Interfaces Web",
