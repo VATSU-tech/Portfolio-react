@@ -105,12 +105,15 @@ body {
 
 .btn-neo {
   @apply btn border-0 text-night font-semibold;
-  background: linear-gradient(120deg, hsl(var(--accent)) 0%, hsl(var(--glow)) 50%, hsl(var(--accent-3)) 100%);
+  background: linear-gradient(120deg, hsl(var(--accent)) 0%, hsl(var(--glow)) 50%, hsl(var(--accent)) 100%);
   box-shadow: 0 18px 40px -20px hsl(var(--glow) / 0.8);
+  transition: .3s ease;
 }
 
 .btn-neo:hover {
-  filter: brightness(1.1);
+  background: linear-gradient(120deg, hsl(var(--glow)) 0%, hsl(var(--accent)) 50%, hsl(var(--glow)) 100%);
+  transform: scale(1.01);
+  // filter: brightness(1.1);
 }
 
 .timeline-line {

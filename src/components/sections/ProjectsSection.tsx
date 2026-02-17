@@ -13,9 +13,9 @@ const ProjectsSection = () => (
           Une vitrine pour vos idées les plus ambitieuses
         </h2>
       </div>
-      <button className="btn btn-outline border-stroke text-ink hover:border-glow">
+      {/* <button className="btn btn-outline border-stroke text-ink hover:border-glow">
         Voir tous les cas
-      </button>
+      </button> */}
     </div>
 
     <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -32,7 +32,7 @@ const ProjectsSection = () => (
               </p>
             </div>
             <a
-              className="btn btn-sm btn-ghost text-ink-muted hover:text-ink"
+              className="btn hover:cursor-pointer btn-sm btn-ghost text-ink-muted hover:text-ink"
               href={project.link}
               target="_blank"
               rel="noreferrer"

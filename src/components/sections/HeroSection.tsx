@@ -11,7 +11,7 @@ const HeroSection = () => (
       <div className="font-display text-xl tracking-wide">Vatsu Studio</div>
       <div className="flex flex-wrap items-center gap-4 text-sm uppercase tracking-[0.2em] text-ink-muted">
         {navLinks.map((link) => (
-          <a key={link.href} className="hover:text-ink" href={link.href}>
+          <a key={link.href} className="hover:text-cyan-400" href={link.href}>
             {link.label}
           </a>
         ))}
@@ -30,15 +30,14 @@ const HeroSection = () => (
           pixel au capteur.
         </h1>
         <p className="text-lg text-ink-muted max-w-xl">
-          Développeur Web & IoT, j&apos;assemble design, performance et interaction
-          pour transformer les idées en produits mémorables.
+          Je suis un développeur Web & IoT, je fais de vos idées, des expériences numériques uniques. <b>donnons vie a vos idee les plus folles</b>
         </p>
         <div className="flex flex-wrap gap-4">
           <a className="btn-neo" href="#projects">
             Voir les projets
           </a>
           <a
-            className="btn btn-outline border-stroke text-ink hover:border-glow"
+            className="btn border-stroke hover:bg-none hover:text-cyan-400 text-ink hover:border-glow"
             href="#contact"
           >
             Discutons ensemble

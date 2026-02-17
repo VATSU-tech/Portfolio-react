@@ -1,46 +1,46 @@
 export const projects = [
   {
-    title: "Flux Shop",
+    title: "Hasard App",
     type: "Web App",
     description:
-      "Plateforme e-commerce ultra-rapide avec catalogue dynamique, paiement sécurisé et dashboard analytics temps réel.",
-    stack: ["React", "Node.js", "Stripe", "PostgreSQL"],
-    link: "https://example.com",
+      "Repartir des groupes d'etudes, ou de travail, au hasard, sans favoritisme n'est plus un probleme avec cete solution.",
+    stack: ["React", "TypeScript","Tailwind", "LocalStorage"],
+    link: "https://hasard.netlify.app",
     metrics: ["+38% conversion", "0.9s TTI", "A11y 98"],
   },
   {
-    title: "Neon Portfolio",
-    type: "Site Vitrine",
+    title: "Invit Get Money",
+    type: "Web app",
     description:
-      "Expérience 3D immersive pour présenter des produits créatifs, avec micro-interactions et navigation fluide.",
-    stack: ["React", "Three.js", "GSAP"],
-    link: "https://example.com",
-    metrics: ["120fps", "Motion design", "SEO 100"],
+      "platform avec un systeme complet de parainage et gain de benefice, suivant le niveau de la personne parainner.",
+    stack: ["React","TypeScript","Tailwind","Sass", "Three.js", "Node.js","MySQL"],
+    link: "https://invit-get-money.netlify.app",
+    metrics: ["120fps", "Motion design", "elements 3D"],
   },
   {
-    title: "Sync IoT Hub",
+    title: "Connect Register",
     type: "IoT Platform",
     description:
-      "Tableau de contrôle pour capteurs industriels, streaming MQTT, alertes prédictives et maintenance proactive.",
-    stack: ["React", "MQTT", "InfluxDB", "Grafana"],
-    link: "https://example.com",
-    metrics: ["+92% uptime", "Alertes 24/7", "Smart dashboard"],
+      "Registre de presence(entree/sortie) avec carte d'identite et envoie les donner sur Google Sheet pour une meilleur sauvegarde.",
+    stack: ["appScript", "C", "C++"],
+    link: "",
+    metrics: ["+92% uptime", "Fonctionne 24/7", "Smart dashboard"],
   },
   {
-    title: "Atlas Studio",
-    type: "Web Agency",
+    title: "Tank eye",
+    type: "IoT Systeme",
     description:
-      "Site d'agence premium avec transitions sur-mesure, contenus animés et effets de profondeur.",
-    stack: ["React", "Tailwind", "Framer Motion"],
-    link: "https://example.com",
-    metrics: ["Hero 3D", "Branding fort", "CMS prêt"],
+      "systeme IoT intellignet qui s'occupe de la commande du moteur pompe pour votre tank(forage), le systeme actionne automatiquement le moteur s'il n'y a plus d'eau dans le tank.",
+    stack: ["C", "C++"],
+    link: "",
+    metrics: ["Durable", "Personnalisable", "No Internet"],
   },
 ];
 
 export const iotHighlights = [
   {
-    title: "Station Météo Urbaine",
-    detail: "Capteurs multi-axes, collecte LoRa, dashboard temps réel.",
+    title: "Smart House",
+    detail: "Capteurs multi-axes, Control total, dashboard temps réel.",
   },
   {
     title: "Smart Energy Monitor",
@@ -61,14 +61,20 @@ export const experiences = [
   },
   {
     title: "IoT Developer",
-    period: "2021 - 2023",
+    period: "2024 - Aujourd'hui",
     description:
       "Pipelines de données capteurs, dashboards réactifs, automatisations industrielles.",
   },
   {
     title: "Web Designer",
-    period: "2019 - 2021",
+    period: "2025 - Aujourd'hui",
     description:
       "Sites vitrine et e-commerce, direction artistique, prototypage rapide.",
   },
+  {
+    title:"Enseignant",
+    period: "2025 - Aujourd'hui",
+    description:
+      "Enseignant en Electronique a l'INSTITUT TECHNIQUE DE LUKANGA"
+  }
 ];

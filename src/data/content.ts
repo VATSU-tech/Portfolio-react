@@ -13,9 +13,9 @@ export const heroBadges = [
 ];
 
 export const heroStats = [
-  { value: "35+", label: "Sites livrés" },
+  { value: "10+", label: "livrés" },
   { value: "12", label: "Devices IoT" },
-  { value: "98", label: "Score perf" },
+  { value: "90", label: "Score perf" },
 ];
 
 export const iotTags = [
@@ -42,9 +42,9 @@ export const stackItems = [
 ];
 
 export const contactItems = [
-  { label: "Email", value: "hello@vatsu.dev" },
-  { label: "Téléphone", value: "+33 6 00 00 00 00" },
-  { label: "Localisation", value: "Paris / Remote" },
+  { label: "Email", value: "vatsumalambo@gmail.com" },
+  { label: "Téléphone", value: "+243 995 716 294" },
+  { label: "Localisation", value: "RDC / Nord-Kivu / Butembo" },
 ];
 
 export const socialLinks = [
