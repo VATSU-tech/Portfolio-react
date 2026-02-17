@@ -106,7 +106,7 @@ const HeroSection = () => (
         </div>
       </div>
 
-      <div className="relative h-[420px] sm:h-[520px]">
+      {/* <div className="relative h-[420px] sm:h-[520px]">
         <div className="absolute inset-0 rounded-[32px] border border-stroke/40 glass" />
         <div className="absolute inset-8 rounded-[28px] border border-stroke/30 bg-night/60" />
         <div className="absolute inset-0 flex items-center justify-center">
@@ -117,7 +117,7 @@ const HeroSection = () => (
             <div className="absolute right-16 top-12 h-24 w-24 rounded-full border border-stroke/50 bg-night/80 shadow-depth animate-tilt" />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   </header>
 );
