@@ -5,6 +5,7 @@ import IotSection from "./components/sections/IotSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 import SiteFooter from "./components/sections/SiteFooter";
 import { useRevealOnScroll } from "./hooks/useRevealOnScroll";
+import Skill from './components/sections/skill';
 
 export default function App() {
   useRevealOnScroll();
@@ -13,7 +14,8 @@ export default function App() {
     <div className="min-h-screen text-ink">
       <HeroSection />
       <ProjectsSection />
-      <IotSection />
+      <Skill />
+      {/* <IotSection /> */}
       <ExperienceSection />
       <ContactSection />
       <SiteFooter />
