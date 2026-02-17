@@ -52,3 +52,16 @@ export const socialLinks = [
   { label: "GitHub", href: "#" },
   { label: "Behance", href: "#" },
 ];
+
+export const skills = [
+  {name: "arduino", value: 70},
+  {name: "typescript", value: 40},
+  {name: "react", value: 50},
+  {name: "node.js",value: 50},
+  {name: "tailwind", value: 50},
+  {name: "Python", value: 40},
+  {name: "java", value: 30},
+  {name: "C++", value:30},
+  {name: "three.js", value: 30},
+  {name: "mysql", value: 40},
+]
